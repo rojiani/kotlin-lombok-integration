@@ -11,12 +11,5 @@ repositories {
 
 dependencies {
     compileOnly "org.projectlombok:lombok:$lombokVersion"
-    testCompile "junit:junit:$junitVersion"
 }
 
-test {
-    testLogging {
-        exceptionFormat = 'full'
-        events = ["passed", "failed", "skipped"]
-    }
-}
