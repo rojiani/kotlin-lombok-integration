@@ -17,4 +17,11 @@ class GreetingJoinerTest {
 
         assertEquals("Hello Foo and Bar and Baz", joiner.getJoinedGreeting())
     }
+
+    @Test
+    fun testBuilder() {
+        val person = Person.builder().age(22).name("Foo Bar").build()
+        assertEquals(22, person.age)
+        assertEquals(listOf("Foo", "Bar"), person.name.split(" "))
+    }
 }

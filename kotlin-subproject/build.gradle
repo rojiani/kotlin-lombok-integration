@@ -31,10 +31,3 @@ compileKotlin {
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
-
-test {
-    testLogging {
-        exceptionFormat = 'full'
-        events = ["passed", "failed", "skipped"]
-    }
-}

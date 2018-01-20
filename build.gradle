@@ -6,6 +6,15 @@ allprojects {
 
 subprojects {
     version = '1.0'
+
+    apply plugin: 'java'
+
+    test {
+        testLogging {
+            exceptionFormat = 'full'
+            events = ["passed", "failed", "skipped"]
+        }
+    }
 }
 
 task wrapper(type: Wrapper) {
