@@ -1,0 +1,13 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+subprojects {
+    version = '1.0'
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion="4.4.1"
+}

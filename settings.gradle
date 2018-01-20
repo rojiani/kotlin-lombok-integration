@@ -1,0 +1,4 @@
+rootProject.name = 'kotlin-lombok-integration'
+
+include 'java-subproject'
+include 'kotlin-subproject'
