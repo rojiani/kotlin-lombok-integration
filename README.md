@@ -12,7 +12,7 @@ Looking through it, there were some suggestions of it being possible using Kapt 
 
 This project shows a Hello World app using a Gradle multi-project build, but it should also work for Maven if you split the Java & Kotlin into [separate modules](https://github.com/rzwitserloot/lombok/issues/1169).
 
-Sharing this so that no one who wants to try using Kotlin in an existing Java+Lombok project gets stuck in the process.
+For more info on Kotlin+Lombok, see this [Medium Post](https://blog.usejournal.com/how-to-fuck-up-java-to-kotlin-migration-in-your-existing-android-app-325b57c9ddbb).
 
 ## References ##
 
@@ -23,12 +23,6 @@ See the [Gradle Tutorial](https://guides.gradle.org/creating-multi-project-build
 [Kotlin - Using Gradle](https://kotlinlang.org/docs/reference/using-gradle.html)
 
 ## Running the app ##
-
-Versions used:
-* Gradle: 4.4.1 (use gradle wrapper)
-* Kotlin: 1.2.20
-* Java: 1.8.0.152
-* Lombok: 1.16.20
 
 ### Gradle ###
 
